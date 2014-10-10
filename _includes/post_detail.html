@@ -1,0 +1,13 @@
+  <ul class="post-list">
+      <li>
+        <h1>
+          {{ post.title }}
+        </h1>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        {{ post.content }}
+      </li>
+  </ul>
+
+        <a href="{{ post.previous.url }}">Previous</a>
+        <a href="{{ post.next.url }}">Next</a>
