@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.rocketsciencecomic.com" # the base hostname & protocol for your site
 #url: "http://localhost:4000" # the base hostname & protocol for your site
-twitter_username: rocketsciencecomic
+twitter_username: rocket_sciencec
 github_username:  rocketsciencecomic
 
 # Build settings
