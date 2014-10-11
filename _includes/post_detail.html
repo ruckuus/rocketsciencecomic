@@ -11,11 +11,11 @@
 
   <center>
     {% if post.previous.url != nil %}
-        <a class="nav prev" href="{{ post.previous.url }}">&laquo; Previous</a>
+        <a class="nav prev" href="{{ post.previous.url }}">Previous</a>
         
     {% endif %}
     {% if post.next.url != nil %}
-        <a class="nav next" href="{{ post.next.url }}">Next &raquo;</a>
+        <a class="nav next" href="{{ post.next.url }}">Next</a>
     {% endif %}
   </center>
 
