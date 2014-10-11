@@ -15,7 +15,11 @@ layout: default
 </div>
 
 <center>
-  <a href="{{ page.previous.url }}">&laquo; Previous</a>
-  ||
-  <a href="{{ page.next.url }}">Next &raquo;</a>
+  {% if page.previous.url != nil %}
+  <a class="nav prev" href="{{ page.previous.url }}" >&laquo; Previous</a>
+  {% endif %}
+  
+  {% if page.next.url != nil %}
+  <a class="nav next" href="{{ page.next.url }}" >Next &raquo;</a>
+  {% endif %}
 </center>
