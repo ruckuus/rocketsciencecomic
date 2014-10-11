@@ -1,6 +1,6 @@
 # Site settings
 title: Rocket Science Comic
-email: ceo@rocketsciencecomic.com
+email: rocketsciencecomic@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   You know, rocket science!
 baseurl: "" # the subpath of your site, e.g. /blog/
