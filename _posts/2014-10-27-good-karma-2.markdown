@@ -4,6 +4,7 @@ title:  "Good Karma #2"
 date:   2014-10-27 12:57:10
 ---
 
+Previously on [Good Karma](http://www.rocketsciencecomic.com/2014/10/27/good-karma.html)
 ![]({{ site.url }}/comics/rocketsciencecomic_6.png)
 
 
