@@ -1,9 +1,19 @@
+
   <ul class="post-list">
       <li>
         <h1>
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h1>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <center>
+    {% if post.previous.url != nil %}
+        <a class="nav prev" href="{{ post.previous.url }}">Previous</a>
+        
+    {% endif %}
+    {% if post.next.url != nil %}
+        <a class="nav next" href="{{ post.next.url }}">Next</a>
+    {% endif %}
+  </center>
+
 
         {{ post.content }}
       </li>
@@ -19,3 +29,4 @@
     {% endif %}
   </center>
 
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
