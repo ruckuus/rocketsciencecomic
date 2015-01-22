@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "WhatsUp?"
+date:   2015-01-22 20:00
+---
+
+![]({{ site.url }}/comics/rocketsciencecomic_9.png)
+
